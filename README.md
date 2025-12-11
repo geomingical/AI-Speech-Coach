@@ -140,20 +140,6 @@ streamlit run streamlit_app.py
 
 應用會在 `http://localhost:8501` 啟動，可以直接在瀏覽器中訪問。
 
-## 📁 專案結構
-
-```
-Presentation/
-├── Presentation_tutor.ipynb   # Colab 啟動器
-├── streamlit_app.py            # Streamlit 主應用
-├── requirements.txt            # Python 依賴
-├── README.md                   # 專案說明
-├── .gitignore                  # Git 忽略配置
-├── create_colab_notebook.py    # Notebook 生成器（備用）
-├── generate_test_audio.py      # 測試音訊生成器
-└── Instruction.txt             # 開發指引
-```
-
 ---
 
 ## 🎬 使用場景
