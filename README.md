@@ -266,7 +266,7 @@ MIT License
 
 ## 👨‍💻 開發者
 
-如需貢獻或回報問題，請提交 Issue 或 Pull Request。
+A-Ming (geomingical@gmail.com)
 
 ## 🙏 致謝
 
