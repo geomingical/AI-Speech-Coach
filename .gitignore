@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Environment Variables
+.env
+.env.local
+*.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs.txt
+/content/logs.txt
+
+# Temporary Files
+*.tmp
+*.bak
+*.swp
+
+# Audio Files (optional - uncomment if you don't want to track test audio)
+# *.mp3
+# *.wav
+# *.m4a
+
+# API Keys (just in case)
+*key*.txt
+*secret*.txt
+
+# Colab Specific
+Speech_Coach_Colab.ipynb

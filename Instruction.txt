@@ -1,0 +1,95 @@
+System Instruction for Antigravity:
+
+You are an expert Python developer specializing in Streamlit and OpenAI API integration. Build a high-quality "AI Speech Coach" application tailored for academic and educational contexts.
+
+Project Name: AI Speech Coach (Adaptive Edition) Tech Stack: Python, Streamlit, OpenAI (GPT-4o Audio Preview), Plotly.
+
+Core Requirements:
+
+UI Layout: st.sidebar for inputs, Main area for analysis.
+
+Language: All UI labels and AI outputs must be in Traditional Chinese (繁體中文).
+
+Vibe: Professional, Clean, Academic.
+
+Detailed Features:
+
+1. Sidebar (Settings):
+
+Title: "⚙️ 演講情境設定"
+
+Personality: Radio: "I 型 (內向/沉穩)" vs "E 型 (外向/熱情)".
+
+Coaching Style: Selectbox:
+
+"溫柔鼓勵 (Supportive)"
+
+"平衡回饋 (Balanced)"
+
+"嚴格魔鬼教練 (Strict/Critical)"
+
+Scenario (CRITICAL for Logic): Selectbox:
+
+"學位口試/課堂報告 (Thesis Defense/Class Report)"
+
+"科普演講/公眾推廣 (Public Outreach)"
+
+"學術研討會 (Conference Presentation)"
+
+Audience: Text Input (e.g., "Professors", "High School Students").
+
+API Key: Password input.
+
+2. Main Area:
+
+Title: "🎙️ AI 專業演講教練"
+
+Upload: MP3/WAV/M4A support.
+
+Button: "🚀 開始全方位分析".
+
+3. Analysis Logic (The Brain - GPT-4o):
+
+Dynamic Opening Analysis:
+
+IF Scenario == "學位口試/課堂報告": Focus the first minute analysis on "Structure & Problem Statement". Did the speaker define the research gap? Is the outline clear?
+
+IF Scenario == "科普演講": Focus the first minute on "The Hook". Did they grab attention? Was it engaging?
+
+Strictness Level:
+
+Strict: Focus on logic holes, defensive arguments, and precise terminology.
+
+Supportive: Focus on potential, tone, and encouragement.
+
+Jargon Check: Analyze if the terminology density matches the Audience input.
+
+4. Output Visualization:
+
+Summary: Metrics for Score, WPM (Words Per Minute), and Confidence Level.
+
+Radar Chart: Axes: [專業度, 邏輯架構, 語氣表達, 時間掌控, 聽眾適配度].
+
+Dynamic Feedback Section (Based on Scenario):
+
+Show a specific box called: "開場分析 (The First Minute)".
+
+Label it "研究動機與架構清晰度" if Scenario is Defense.
+
+Label it "開場吸引力" if Scenario is Public.
+
+Detailed Tabs:
+
+Tab 1: 優點 (Strengths)
+
+Tab 2: 改進建議 (Improvements) - Actionable tips.
+
+Tab 3: 模擬提問 (Simulated Q&A) - Generate 2 tough questions a professor/audience might ask based on the content.
+
+Code Structure:
+
+Use st.spinner to indicate processing.
+
+Handle API errors gracefully.
+
+Keep the code modular (separate UI function and Analysis function).
