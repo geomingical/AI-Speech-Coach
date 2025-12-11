@@ -28,6 +28,18 @@ AI Speech Coach 是一款基於 GPT-4o Audio 模型的智能演講分析工具�
 
 ---
 
+## 📸 應用展示
+
+<div align="center">
+
+![AI Speech Coach Demo](images/demo-screenshot.png)
+
+*實際分析結果展示：包含五維雷達圖、整體評估與詳細回饋*
+
+</div>
+
+---
+
 ## ✨ 功能特色
 
 ### 🎯 適應性分析引擎
